@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="week7.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:week7"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' Content="通过Json查询" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="538,528,0,0"                    Height="59" Width="250" FontSize="20"/>
+        <Button x:ConnectionId='2' Content="通过Xml查询" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,528,0,0"                   Height="59" Width="250" FontSize="20"/>
+        <TextBlock x:ConnectionId='3' x:Name="prov" HorizontalAlignment="Left" TextWrapping="Wrap" Text="未知" VerticalAlignment="Top" Margin="507,399,0,0" Height="62" Width="116" FontSize="26" />
+        <TextBlock x:ConnectionId='4' x:Name="citys" HorizontalAlignment="Left" TextWrapping="Wrap" Text="未知" VerticalAlignment="Top" Margin="654,399,0,0" Height="62" Width="116" FontSize="26" />
+        <TextBox x:ConnectionId='5' x:Name="box" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="500,155,0,0" Height="59" Width="266" FontSize="26" FontStyle="Italic" FontWeight="ExtraLight"/>
+        <TextBlock x:ConnectionId='6' x:Name="supps" HorizontalAlignment="Left" TextWrapping="Wrap" Text="未知" VerticalAlignment="Top" Margin="506,283,0,0" Height="62" Width="116" FontSize="26" />
+        <TextBlock x:ConnectionId='7' x:Name="er" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Status..." VerticalAlignment="Top" Margin="1003,620,0,0" Height="62" Width="116" FontSize="26" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="运营商" VerticalAlignment="Top" Margin="336,283,0,0" Height="62" RenderTransformOrigin="0.5,0.5" Width="116" FontSize="26" />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="归属地" VerticalAlignment="Top" Margin="338,399,0,0" Height="62" Width="116" FontSize="26" />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="请输入11位手机号码" VerticalAlignment="Top" FontSize="26" Margin="177,170,0,0" Height="53" Width="272" />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="手机号码归属地查询" VerticalAlignment="Top" FontSize="40" Margin="100, 30, 0, 0" Height="83" Width="590" />
+    </Grid>
+</Page>
+
